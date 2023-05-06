@@ -1,0 +1,5 @@
+@import "@localhostonly/reset/reset.css";
+
+.localButton {
+  padding: mod(50px, 51px);
+}

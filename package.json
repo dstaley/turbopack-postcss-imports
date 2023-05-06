@@ -1,0 +1,20 @@
+{
+  "name": "turbopack-postcss-imports",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "turbopack": "node make-package.mjs && next dev --turbo",
+    "without-turbopack": "node make-package.mjs && next dev"
+  },
+  "dependencies": {
+    "@types/node": "20.1.0",
+    "@types/react": "18.2.5",
+    "@types/react-dom": "18.2.4",
+    "next": "13.4.1",
+    "postcss": "^8.4.23",
+    "postcss-preset-env": "^8.3.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.4"
+  }
+}
